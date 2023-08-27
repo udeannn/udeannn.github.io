@@ -68,7 +68,7 @@ body {
 }
 
 .navbar .navbar-menu .button-reach:hover {
-    background: #ffff00;
+    background: #2fff2f;
 }
 
 /* end navbar */
@@ -197,7 +197,79 @@ body {
 
 .reach-me-section {
     margin: 100px;
+}
 
+.reach-me-section .reach-me-card {
+    border: 1px solid #000;
+    /* display: inline-block; */
+    background: #fff;
+    width: 500px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .reach-me-section .reach-me-card:after{
+    content:'';
+    position:absolute;
+    background-color:#000;
+    top:8px;
+    left:8px;
+    right:-8px;
+    bottom:-8px;
+    z-index:-1;
+} */
+
+.reach-me-section .reach-me-card .reach-me-link {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reach-me-section .reach-me-card .reach-me-link ul{
+    list-style: none;
+    text-align: center;
+}
+
+
+.reach-me-section .reach-me-card .reach-me-link ul li{
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #000;
+    box-shadow: 0.8vmin 0.8vmin #000;
+    width: 200px;
+}
+
+.reach-me-section .reach-me-card .reach-me-link ul li:nth-child(1) {
+    background: #ffff00;
+}
+
+.reach-me-section .reach-me-card .reach-me-link ul li:nth-child(2) {
+    background: #2fff2f;
+}
+
+
+.reach-me-section .reach-me-card .reach-me-link ul li a{
+    text-decoration: none;
 }
 
 /*end reach me */
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #000;
+    background-color: #fff;
+}
+
+.footer p {
+
+}
+
+/* end footer */
