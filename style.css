@@ -323,3 +323,75 @@ body {
 }
 
 /* end footer */
+
+/* TABLET */
+@media screen and (max-width: 1023PX) {
+    .about-me-section .about-me {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .navbar .navbar-logo h3 {
+        font-size: 20px;
+    }
+
+    .navbar .navbar-menu .menu {
+        display: none;
+    }
+
+    .navbar .navbar-menu a {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .hero {
+        margin: 150px 10px;
+    }
+
+    .hero .hero-text h5 {
+        font-size: 18px;
+    }
+
+    .hero .hero-text h3 {
+        font-size: 45px;
+        margin: 0 0 16px 0;
+    }
+
+    .hero .hero-text p {
+        font-size: 18px;
+    }
+
+    .about-me-section {
+        margin: 0 50px 100px 50px;
+    }
+
+    .about-me-section .about-me {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-me-section .about-me .about-me-card p{
+        font-size: 13px;
+        line-height: 1.8rem;
+    }
+
+    .project-section {
+        margin: 0 50px 100px 50px;
+    }
+
+    .reach-me-section {
+        margin: 0 50px 100px 50px;
+    }
+    
+    .reach-me-section .reach-me-card { 
+        max-width: 400px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
